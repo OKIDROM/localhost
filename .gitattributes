@@ -1,7 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-RewriteEngine On
-# Проверка mime типов, которые обычно поддерживаются мобильными устройствами
-RewriteCond %{HTTP_ACCEPT} "text\/vnd\.wap\.wml|application\/vnd\.wap\.xhtml\+xml" [NC]
-RewriteCond %{REQUEST_URI} ^/$
-RewriteRule ^ http://vk.com/okidrom%{REQUEST_URI} [R,L]
