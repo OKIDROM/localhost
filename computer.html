@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>DeltaWheels</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Иконки -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google шрифты -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <!-- библиотека CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Библиотека CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/aos/aos.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" />
+
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/viezd.css" rel="stylesheet">
+  <link href="css/modal.css" rel="stylesheet">
+
+    <link href="templates\autocare\images\favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link href="components\com_sppagebuilder\assets\css\font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="components\com_sppagebuilder\assets\css\animate.min.css" rel="stylesheet" type="text/css">
+  <link href="components\com_sppagebuilder\assets\css\sppagebuilder.css" rel="stylesheet" type="text/css">
+  <link href="components\com_sppagebuilder\assets\css\sppagecontainer.css" rel="stylesheet" type="text/css">
+  <link href="components\com_sppagebuilder\assets\css\magnific-popup.css" rel="stylesheet" type="text/css">
+  <link href="templates\autocare\css\bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="templates\autocare\css\font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="templates\autocare\css\legacy.css" rel="stylesheet" type="text/css">
+  <link href="templates\autocare\css\template.css" rel="stylesheet" type="text/css">
+  <link href="templates\autocare\css\presets\preset3.css" rel="stylesheet" type="text/css" class="preset">
+  <link href="templates\autocare\css\custom.css" rel="stylesheet" type="text/css">
+  <link href="plugins\system\helix3\assets\css\pagebuilder.css" rel="stylesheet" type="text/css">
+  <link href="templates\autocare\css\frontend-edit.css" rel="stylesheet" type="text/css">
+  <style type="text/css">
+.sp-page-builder .page-content #section-id-1490202933959{margin:0px 0px 0px 0px;padding:0px 0px 90px 0px;background-color:rgba(246, 246, 246, 1);}
+#sppb-addon-1490280942295 .sppb-empty-space {padding-bottom: 5px;}
+.sp-page-builder .page-content #section-id-1490202933961{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+.sp-page-builder .page-content #section-id-1553441952932{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+.sp-page-builder .page-content #section-id-1490313003177{margin:0px 0px 0px 0px;padding:100px 0px 0px 0px;background-image:url(images/2019/03/26/disk9.jpg);background-repeat:no-repeat;background-size:cover;background-attachment:fixed;background-position:50% 50%;}
+.sp-page-builder .page-content #section-id-1490313003179{margin:0px 0px 0px 0px;padding:10px 0px 0px 0px;}
+
+.sp-page-builder .page-content #section-id-1491001296684{margin:0px 0px 0px 0px;padding:90px 0px 90px 0px;}
+.sp-page-builder .page-content #section-id-1491089056849{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+#sppb-addon-1491089056870 .sppb-addon-image-overlay{background-color: rgba(0, 0, 0, 0.6);}
+#sppb-addon-1491089056875 .sppb-addon-image-overlay{background-color: rgba(0, 0, 0, 0.6);}
+.sp-page-builder .page-content #section-id-1491089056856{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+#sppb-addon-1491089056894 .sppb-addon-image-overlay{background-color: rgba(0, 0, 0, 0.6);}
+#sppb-addon-1491089056889 .sppb-addon-image-overlay{background-color: rgba(0, 0, 0, 0.6);}
+#sppb-addon-1491089056884 .sppb-addon-image-overlay{background-color: rgba(0, 0, 0, 0.6);}
+.sp-page-builder .page-content #section-id-1553950695597{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}
+.sp-page-builder .page-content #section-id-1553949135728{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}
+.sp-page-builder .page-content #section-id-1553557282232{margin:0px 0px 0px 0px;padding:50px 0px 50px 0px;}
+.sp-page-builder .page-content #section-id-1491176089203{margin:0px 0px 0px 0px;padding:70px 0px 60px 0px;}
+.sp-page-builder .page-content #section-id-1491176089210{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+body{font-family:Open Sans, sans-serif; font-weight:300; }
+h1{font-family:Open Sans, sans-serif; font-weight:800; }
+h2{font-family:Open Sans, sans-serif; font-weight:600; }
+h3{font-family:Open Sans, sans-serif; font-weight:normal; }
+h4{font-family:Open Sans, sans-serif; font-weight:normal; }
+h5{font-family:Open Sans, sans-serif; font-weight:600; }
+h6{font-family:Open Sans, sans-serif; font-weight:600; }
+#sp-bottom{ background-image:url("images/footer-area.jpg");background-repeat:no-repeat;background-size:cover;background-attachment:scroll;background-position:50% 0;background-color:#f5f5f5;padding:63px 0px 120px 0px; }
+  </style>
+
+  <!-- ============================================================================================================== -->
+</head>
+  <link rel="stylesheet" href="css/right-nav-style.css">
+    <!--
+    Скрытый checkbox, отвечающий за переключение панели, должен быть в верхней части документа, лучше сразу после тега `<body>`
+
+    `id` атрибут предназначен для связки с атрибутом `for` тега <label>
+
+    Атрибут `hidden` указывает состояние «скрытый» у текущего элемента
+    -->
+    <input type="checkbox" id="nav-toggle" hidden>
+    <!--
+    Выдвижную панель размещаете ниже
+    флажка (checkbox), но не обязательно
+    непосредственно после него, например
+    можно и в конце страницы
+    -->
+    <nav class="nav">
+        <!--
+    Метка с именем `id` чекбокса в `for` атрибуте
+    Символ Unicode 'TRIGRAM FOR HEAVEN' (U+2630)
+    Пустой атрибут `onclick` используем для исправления бага в iOS < 6.0
+    См: http://timpietrusky.com/advanced-checkbox-hack
+    -->
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <!--
+    Здесь размещаете любую разметку,
+    если это меню, то скорее всего неупорядоченный список <ul>
+    -->
+        <h2 class="logo">
+          <nav id="menu">
+            <a href="https://vk.com/okidrom">Услуги</a>
+        </h2>
+        <ul>
+<!--       ---------------------------------------------------------          -->
+            <li>
+			<div class="filter">
+			  <details>
+			    <summary href="#2">ПОЛИМЕРНАЯ ПОКРАСКА</summary>
+			    <ul>
+			      <label>ПРАЙС на ПОКРАСКУ</label>
+			      <button id="myBtn">Открыть окно</button>
+			      <div id="myModal" class="modal">
+					  <div class="modal-content">
+					    <div class="modal-header">
+					      <span class="close">&times;</span>
+					      <h2>Шапка модального окна</h2>
+					    </div>
+					    <div class="modal-body">
+					      <p>Какой-то текст в теле модального окна</p>
+					      <p>Ещё другой текст...</p>
+					    </div>
+					  </div>
+			    </ul>
+			  </details>
+			</div>
+<!--       ---------------------------------------------------------          -->
+			<li>
+			<div class="filter">
+			  <details>
+			    <summary href="#3">Услуга 2</summary>
+			    <ul>
+			      <label>Услуга 2</label>
+			    </ul>
+			  </details>
+			</div>
+<!--       ---------------------------------------------------------          -->
+			<li>
+			<div class="filter">
+			  <details>
+			    <summary href="#4">Услуга 3</summary>
+			    <ul>
+			      <label>Услуга 3</label>
+			    </ul>
+			  </details>
+			</div>
+<!--       ---------------------------------------------------------          -->
+			<li>
+			<div class="filter">
+			  <details>
+			    <summary href="#5">Услуга 4</summary>
+			    <ul>
+			      <label>Услуга 4</label>
+			    </ul>
+			  </details>
+			</div>
+<!--       ---------------------------------------------------------          -->
+			<li>
+			<div class="filter">
+			  <details>
+			    <summary href="#6">Услуга 5</summary>
+			    <ul>
+			      <label>Услуга 5</label>
+			    </ul>
+			  </details>
+			</div>
+<!--       ---------------------------------------------------------          -->
+			<li>
+			<div class="filter">
+			  <details>
+			    <summary href="#7">Услуга 6</summary>
+			    <ul>
+			      <label>Услуга 6</label>
+			    </ul>
+			  </details>
+			</div>
+<!--       ---------------------------------------------------------          -->
+			<li>
+			<div class="filter">
+			  <details>
+			    <summary href="#8">Услуга 7</summary>
+			    <ul>
+			      <label>Услуга 7</label>
+			    </ul>
+			  </details>
+			</div>
+<!--       ---------------------------------------------------------          -->
+          </nav>
+        </ul>
+    </nav>
+    <div class="mask-content"></div>
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#intro" class="scrollto"><i class="fa fa-car"></i>DeltaWheels</a></h1>
+        <!-- <a href="#intro"><img src="img/logo.png" alt="" title="" /></img></a> -->
+      </div>
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Интро
+  ============================-->
+  <section style="background-image: url('img/background.png');" id="intro">
+
+    <div class="intro-text">
+      <h2>Приветствуем на DeltaWheels</h2>
+      <p>Центр колёсных технологий в Минске.</p>
+    </div>
+
+    <div class="product-screens">
+
+      <div class="product-screen-1" data-aos="fade-up" data-aos-delay="400">
+        <img src="img/product-screen-1.png" alt="">
+      </div>
+
+      <div class="product-screen-2" data-aos="fade-up" data-aos-delay="200">
+        <img src="img/product-screen-2.png" alt="">
+      </div>
+
+      <div class="product-screen-3" data-aos="fade-up">
+        <img src="img/product-screen-3.png" alt="">
+      </div>
+
+    </div>
+
+  </section>
+
+  <main id="main">
+
+    <!--==========================
+      О нас
+    ============================-->
+    <section style="background-image: url('img/background.png'id="about" class="section-bg">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">О нас</h3>
+          <span class="section-divider"></span>
+          <p class="section-description">
+            Начало было положено в 2014 году, начиналось все с одного шиномонтажного ручного  и балансировочного  станка, на данный момент НАМИ закрыт весь цикл по восстановлению и реставрации дисков. Мы являемся непосредственно ПРОИЗВОДИТЕЛЕМ УСЛУГ без посредников. За данный период времени наработан огромный опыт, в том числе и на собственных ошибках, но это только подталкивает для дальнейшего совершенствования.
+Запущено собственное производство по изготовлению ГАЛТОВОЧНЫХ УСТАНОВОК.
+
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6 content" data-aos="fade-left">
+            <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/9Q4Q2HjmNF4" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+              
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--USLUGI-->
+
+    <section id="section-id-1490313003177" class="section-bg">
+            <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Услуги</h3>
+          <span class="section-divider"></span>
+<section id="section-id-1490313003177" class="sppb-section ">
+  <div class="sppb-row-container">
+    <div class="sppb-row">
+      <div class="sppb-col-md-12">
+    <div id="column-id-1490313003178" class="sppb-column">
+      <div class="sppb-column-addons">
+  <div id="sppb-addon-1490313003183" class="clearfix">
+    <div class="sppb-addon sppb-addon-text-block sppb-text-left wheel-work">
+    <div class="sppb-addon-content">       
+  </div>
+</div>
+</div>
+<div id="section-id-1490313003179" class="sppb-section ">
+  <div class="sppb-container-inner">
+    <div class="sppb-row">
+    <div class="sppb-col-md-12">
+      <div id="column-id-1490313003180" class="sppb-column">
+        <div class="sppb-column-addons">
+          <div id="sppb-addon-1490313003205" class="clearfix">
+            <div class="sppb-addon sppb-addon-tab wheel-work-left">
+        <div class="sppb-addon-content sppb-tab">
+          <ul class="sppb-nav sppb-nav-vertical">
+          <li class="active"><a data-toggle="sppb-tab" href="#sppb-tab-1490313003205">
+            <i class="fa fa-automobile"></i> 
+            <div class="title">
+<h3>ПОЛИМЕРНАЯ ПОКРАСКА</h3>
+<h6>Текст</h6>
+</div></a></li><li class=""><a data-toggle="sppb-tab" href="#sppb-tab-1490313003206"><i class="fa fa-crosshairs"></i> <div class="title">
+<h3>Правка дисков</h3>
+<h6>Восстановление недостающих элементов</h6>
+</div></a></li><li class=""><a data-toggle="sppb-tab" href="#sppb-tab-1490313003207"><i class="fa fa-paint-brush"></i> <div class="title">
+<h3>Алмазная проточка</h3>
+<h6>Текст</h6>
+</div></a></li><li class=""><a data-toggle="sppb-tab" href="#sppb-tab-1490313003208"><i class="fa fa-life-bouy"></i> <div class="title">
+<h3>Полировка</h3>
+<h6>Текст</h6>
+</div></a></li><li class=""><a data-toggle="sppb-tab" href="#sppb-tab-1490313003209"><i class="fa fa-bullseye"></i> <div class="title">
+<h3>РЕМОНТ ЦО, РАСТОЧКА ЦО</h3>
+<h6>Изготовление центровочных колец и проставок</h6>
+</div></a></li></ul><div class="sppb-tab-content sppb-nav-vertical-content"><div id="sppb-tab-1490313003205" class="sppb-tab-pane sppb-fade active in"><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="img-holder">
+<img src="img\uslugifoto\pokraska.jpg" alt="Покраска дисков">
+</div>
+</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="content">
+<h4>ПОКРАСКА ДИСКОВ</h4>
+<p>Красивые и аккуратные диски прибавляют любому автомобилю БОЛЬШОЙ ПЛЮС к внешнему виду. Но, к сожалению, дорога это достаточно агрессивная среда, чтобы ДИСКИ оставались в первозданном виде ВСЕГДА. </p>
+</div>
+<table>
+    <tr>
+        <td>диаметр</td>
+        <td>цена (полимер)</td>
+        <td>цена (термоэмаль и кэнди цвета)</td>
+    </tr>
+    <tr>
+        <td>13-16</td>
+        <td>350</td>
+        <td>500</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>400</td>
+        <td>600</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>430</td>
+        <td>650</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>450</td>
+        <td>700</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>550</td>
+        <td>750</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>600</td>
+        <td>800</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>650</td>
+        <td>850</td>
+    </tr>
+</table>
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="single-list-item">
+<ul class="triple">
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Цвета</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="button">
+ <a class="aut-cr-btn" href="#">Подробнее</a>
+</div>
+</div></div><div id="sppb-tab-1490313003206" class="sppb-tab-pane sppb-fade"><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="img-holder">
+<img src="img\uslugifoto\bienit.png" alt="Awesome Image">
+</div>
+</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="content">
+<h4>ПРАВКА ДИСКОВ</h4>
+<p>Очень ВАЖНЫЙ вопрос по теме «Восстановления ДИСКОВ» - это ПРАВКА ГЕОМЕТРИИ, т.к. без правильного вращения колеса все старания по покраске сводятся к «НУЛЮ». Какими бы КРАСИВЫЕ колеса не были, но если после установки на авто, машину трясёт на скоростях  –УДОВОЛЬСТВИЯ от этого нет никого, если не сказать больше.</p>
+</div>
+<table>
+    <tr>
+        <td>работа</td>
+        <td>цена</td>
+    </tr>
+    <tr>
+        <td>правка радиального биения</td>
+        <td>от 60</td>
+    </tr>
+    <tr>
+        <td>правка осевого биения</td>
+        <td>от 100</td>
+    </tr>
+    <tr>
+        <td>восстановления недостающих элементов зависит от сложности</td>
+        <td>от 160</td>
+    </tr>
+</table>
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="single-list-item">
+<ul class="triple">
+
+</ul>
+</div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="button">
+ <a class="aut-cr-btn" href="#">Подробнее</a>
+ </div>
+  </div></div><div id="sppb-tab-1490313003207" class="sppb-tab-pane sppb-fade"><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="img-holder">
+<img src="img\uslugifoto\almprotochka.png" alt="Awesome Image">
+</div>
+</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="content">
+<h4>АЛМАЗНАЯ ПРОТОЧКА</h4>
+<p>Большая часть дисков на данный момент имеет по заводу двухцветную окраску, один цвет это краска, а второй цвет – это проточенная лицевая часть диска до блеска.</p>
+</div>
+<table>
+    <tr>
+        <td>диаметр</td>
+        <td>цена</td>
+    </tr>
+    <tr>
+        <td>до 18</td>
+        <td>250</td>
+    </tr>
+    <tr>
+        <td>до 20</td>
+        <td>300</td>
+    </tr>
+    <tr>
+        <td>21 и больше</td>
+        <td>350</td>
+    </tr>
+    <tr>
+        <td>проточка полок</td>
+        <td>200-350 (зависит от сложности и ширины)</td>
+    </tr>
+</table>
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="single-list-item">
+<ul class="triple">
+<li><i class="fa fa-check" aria-hidden="true"></i>Черный глянец</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Серебро без зерна</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Кислотный цвет</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты светлые</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты с зерном</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Медь, Латунь</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты без зерна</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Хром, Золото</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="button">
+ <a class="aut-cr-btn" href="#">Подробнее</a>
+ </div>
+  </div></div><div id="sppb-tab-1490313003208" class="sppb-tab-pane sppb-fade"><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="img-holder">
+<img src="img\uslugifoto\polirovka.png" alt="Awesome Image">
+</div>
+</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="content">
+<h4>ПОЛИРОВКА ДИСКОВ И ПОЛОК.</h4>
+<p>Полировка полок дисков производится на специальном станке с предварительной подготовкой как с помощью хим смывок старого ЛКП, так и с помощью пескоструйной обработки поверхности, постепенной шлифовкой наждачными полотнами различной зернистости – от более грубых до более мягких. Данный процесс является предшествующим процессу полировки как до зеркального, так и до полуматового блеска, по желанию заказчика.</p>
+</div>
+<table>
+    <tr>
+        <td>работа</td>
+        <td>цена</td>
+    </tr>
+    <tr>
+        <td>полировка
+лицевой поверхности диска</td>
+        <td>от 300</td>
+    </tr>
+    <tr>
+        <td>полировка
+полок</td>
+        <td>от 350</td>
+    </tr>
+    <tr>
+        <td>нанесение
+спецлака</td>
+        <td>от 200-250</td>
+    </tr>
+    <tr>
+        <td>галтовка
+дисков</td>
+        <td>1300-1600 (от состояния и диаметра</td>
+    </tr>
+    <tr>
+        <td>изготовление галтовочных установок под заказ<br></td>
+        <td>13000 до 15000</td>
+    </tr>
+</table>
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="single-list-item">
+<ul class="triple">
+<li><i class="fa fa-check" aria-hidden="true"></i>Черный глянец</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Серебро без зерна</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Кислотный цвет</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты светлые</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты с зерном</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Медь, Латунь</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты без зерна</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Хром, Золото</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="button">
+ <a class="aut-cr-btn" href="#">Подробнее</a>
+ </div>
+  </div></div><div id="sppb-tab-1490313003209" class="sppb-tab-pane sppb-fade"><div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="img-holder">
+<img src="img\uslugifoto\remontco.png" alt="Awesome Image">
+</div>
+</div>
+
+<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+<div class="content">
+<h4>ПОКРАСКА СТУПИЧНЫХ КОЛПАЧКОВ.</h4>
+<p>Для маскировки ржавых и окисленных колесных болтов в одном случае, и для затемнения хромированных болтов при достижении полного Блэк Пакета во втором, наш сервис предлагает для установки пластиковые насадки различных цветов </p>
+<table>
+    <tr>
+        <td>работа</td>
+        <td>цена</td>
+    </tr>
+    <tr>
+        <td>ремонтные, центровочные кольца (алюминий)</td>
+        <td>80</td>
+    </tr>
+    <tr>
+        <td>расточка цо (зависит от величины расточки и диаметра</td>
+        <td>80-120</td>
+    </tr>
+    <tr>
+        <td>расточка цо (под ремонтные кольца с запрессовкой</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>изготовление проставок (до 20мм)</td>
+        <td>250</td>
+    </tr>
+    <tr>
+        <td>изготовление адаптеров (с комплектом крепежа)</td>
+        <td>550</td>
+    </tr>
+</table>
+</div>
+</div>
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="single-list-item">
+<ul class="triple">
+<li><i class="fa fa-check" aria-hidden="true"></i>Черный глянец</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Серебро без зерна</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Кислотный цвет</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты светлые</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты с зерном</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Медь, Латунь</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Графиты без зерна</li>
+<li><i class="fa fa-check" aria-hidden="true"></i>Хром, Золото</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="button">
+ <a class="aut-cr-btn" href="#">Подробнее</a>
+ </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+    </section>
+    <!--==========================
+      Где мы находимся
+    ============================-->
+    <section id="more-features" class="section-bg">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-title">Где мы находимся</h3>
+          <span class="section-divider"></span>
+        </div>
+        <div class="row">
+		<!--ГУГЛ КАРТА -->
+				    <style>
+			.outline {
+			border: 3px solid gray;
+			padding: 0 0px;
+			}
+			</style>
+		<div class="outline">
+			<iframe
+			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2353.997375449861!2d27.542689651142954!3d53.84291057998837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbd1a967682c25%3A0xa7b464e674bf55df!2z0YPQu9C40YbQsCDQodC10YDQvtCy0LAgMTgsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1617296447471!5m2!1sru!2sby"
+			width="1140"
+			height="350"
+			style="border:0;"
+			allowfullscreen=""
+			loading="lazy">
+			</iframe>
+        </div>
+      </div>
+    </section>
+
+    <!--==========================
+      Галерея
+    ============================-->
+    <section id="gallery">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h3 class="section-title">Фотографии</h3>
+          <span class="section-divider"></span>
+        </div>
+
+        <div class="row no-gutters">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item" data-aos="fade-up">
+              <a href="img/gallery/gallery-3.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-3.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item" data-aos="fade-up">
+              <a href="img/gallery/gallery-4.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-4.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item" data-aos="fade-up">
+              <a href="img/gallery/gallery-5.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-5.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item" data-aos="fade-up">
+              <a href="img/gallery/gallery-6.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-6.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item" data-aos="fade-up">
+              <a href="img/gallery/gallery-7.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-7.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item" data-aos="fade-up">
+              <a href="img/gallery/gallery-8.jpg" class="gallery-popup">
+                <img src="img/gallery/gallery-8.jpg" alt="">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--==========================
+      Контакты
+    ============================-->
+    <section id="contact">
+      <div class="container">
+        <div class="row" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-4">
+            <div class="contact-about">
+              <h3>DeltaWheels</h3>
+              <p>Для связи с нами можете использовать следующие социальные сети:</p>
+              <div class="social-links">
+                <a href="#" class="youtube-play"><i class="fa fa-youtube-play"></i></a>
+                <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                <a href="https://vk.com/deltawheels" class="vk"><i class="fa fa-vk"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="info">
+              <div>
+                <i class="ion-ios-location-outline"></i>
+                <p>Адресс<br>Минск, серова 18</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-email-outline"></i>
+                <p>Почта</p>
+              </div>
+
+              <div>
+                <i class="ion-ios-telephone-outline"></i>
+                <p>+375-29-378-74-23</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Заключающая часть
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 text-lg-left text-center">
+          <div class="copyright">
+            &copy; Авторские права <strong>DeltaWheels</strong>. Все права защищены
+          </div>
+          <div class="credits">
+            Разработано <a href="https://vk.com/okidrom">OKIDROM</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+            <a href="#about" class="scrollto">О нас</a>
+            <!-- <a href="#">Privacy Policy</a> -->
+            <!-- <a href="#">Terms of Use</a> -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- Библиотеки скриптов -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/aos/aos.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+
+  <!-- ГБС -->
+  <script src="js/main.js"></script>
+
+  <script src="components\com_sppagebuilder\assets\js\sppagebuilder.js" type="text/javascript"></script>
+  <script src="components\com_sppagebuilder\assets\js\jquery.magnific-popup.min.js" type="text/javascript"></script>
+  <script src="templates\autocare\js\bootstrap.min.js" type="text/javascript"></script>
+  <script src="templates\autocare\js\jquery.sticky.js" type="text/javascript"></script>
+  <script src="templates\autocare\js\main.js" type="text/javascript"></script>
+  <script src="templates\autocare\js\custom.js" type="text/javascript"></script>
+  <script src="templates\autocare\js\frontend-edit.js" type="text/javascript"></script>
+</body>
+</html>
